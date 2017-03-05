@@ -11,8 +11,8 @@ win32 {
     MOC_DIR = .moc
     OBJECTS_DIR = .obj
 }
-
-# rules below apply to TEMPLATE=app projects only: 
+DESTDIR = dest
+# rules below apply to TEMPLATE=app projects only:
 app {
     # place executable in same folder:
     DESTDIR=$$OUT_PWD
